@@ -14,4 +14,4 @@ RUN apt-get update && \
     python3-cffi \
     ffmpeg
 
-RUN pip install --no-cache-dir --upgrade -r requirements-torch.txt
+RUN pip install --no-cache-dir --upgrade -r requirements.txt
